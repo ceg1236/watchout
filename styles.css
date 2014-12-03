@@ -2,4 +2,27 @@
 
 /* Note: an asteroid image is included in this repo. 
 Feel free to use it if you like. */
-
+body{
+  margin: 0;
+  font-family: helvetica;
+}
+.astroid{
+  background-color: black;
+  background-size: 100% 100%;
+  position: absolute;
+}
+.scoreboard{
+  width: 250px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 5px;
+  border-radius: 3px;
+}
+.scoreboard div{
+  line-height: 33px;
+  font-size: 25px;
+  float: right;
+}
